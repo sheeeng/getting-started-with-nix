@@ -1,0 +1,17 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices",
+    ":disableDependencyDashboard"
+  ],
+  "lockFileMaintenance": {
+    "description": "https://docs.renovatebot.com/configuration-options/#lockfilemaintenance",
+    "enabled": true
+  },
+  "node": {
+    "enabled": true,
+    "supportPolicy": [
+      "lts"
+    ]
+  }
+}
